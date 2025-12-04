@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  background-color: #e3f2fd;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+
+header {
+  text-align: center;
+  background-color: #b84dff;
+  color: white;
+  padding: 20px;
+  width: 100%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+
+nav {
+  background-color: #ac65db;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  background-color: #9050bc;
+  width: 80%;
+  max-width: 800px;
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+article header h2 {
+  color: #ffffffff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #ffffffff;
+}
+
+h3 {
+  text-align: left;
+  color: #ffffffff;
+}
+
+li {
+  text-align: left;
+  color: #ffffffff;
+}
+
+article p {
+  color: #ffffffff;
+  margin-bottom: 0;
+}
+
+figure {
+  text-align: center;
+}
+
+figure img {
+  border-radius: 10px;
+}
+
+figcaption {
+  font-size: 14px;
+  color: #555;
+}
+
+.tombol-utama {
+  background-color: #ac65db;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.tombol-utama:hover {
+  background-color: #ac65db;
+}
+
+.highlight-text {
+  background-color: #d9e9ff;
+  padding: 10px;
+  border-radius: 6px;
+}
+aside {
+  background-color: #ac65db;
+  width: 80%;
+  max-width: 800px;
+  padding: 20px;
+  margin: 20px auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+aside h3 {
+  color: #ffffffff;
+}
+
+
+footer {
+  background-color: #b84dff;
+  color: white;
+  text-align: center;
+  width: 100%;
+  padding: 10px 0;
+}
